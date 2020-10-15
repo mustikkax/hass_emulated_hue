@@ -29,7 +29,7 @@ class Config:
         # Get the IP address that will be passed to during discovery
         self.host_ip_addr = get_local_ip()
         _LOGGER.info(
-            "Listen IP address not specified, auto-detected address is %s",
+            "Listen IP address not specified, auto-detected address is %s, (DEBUG)",
             self.host_ip_addr,
         )
 
