@@ -35,8 +35,8 @@ class Config:
 
         # Get the ports that the Hue bridge will listen on
         # ports are currently hardcoded as Hue apps expect these ports
-        self.http_port = 80
-        self.https_port = 443
+        self.http_port = 81
+        self.https_port = 444
 
         # Get whether or not UPNP binds to multicast address (239.255.255.250)
         # or to the unicast address (host_ip_addr)
